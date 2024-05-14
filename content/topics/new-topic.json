@@ -1,0 +1,9 @@
+{
+  "slug": "new-topic",
+  "title": "new topic",
+  "topics": [
+    {
+      "category": "content/categories/Test-category-2.json"
+    }
+  ]
+}
