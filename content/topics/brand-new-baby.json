@@ -5,6 +5,8 @@
     {
       "category": "content/categories/Test-category-2.json"
     },
-    {}
+    {
+      "category": "content/categories/test-cat.json"
+    }
   ]
 }
