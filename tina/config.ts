@@ -35,12 +35,12 @@ export default defineConfig({
     // Get this from tina.io
     token: process.env.TINA_TOKEN,
     tinaioConfig: {
-        // frontendUrlOverride: 'https://app.tinajs.dev', // 'https://app.tina.io'
-        // identityApiUrlOverride: 'https://identity.tinajs.dev',
-        // contentApiUrlOverride: 'https://content.tinajs.dev'
-        frontendUrlOverride: 'http://localhost:3002',
-        identityApiUrlOverride: 'https://bjeyn-identity.tinajs.dev',
-        contentApiUrlOverride: 'https://bjeyn-content.tinajs.dev'
+        frontendUrlOverride: 'https://app.tinajs.dev', // 'https://app.tina.io'
+        identityApiUrlOverride: 'https://identity.tinajs.dev',
+        contentApiUrlOverride: 'https://content.tinajs.dev'
+        // frontendUrlOverride: 'http://localhost:3002',
+        // identityApiUrlOverride: 'https://bjeyn-identity.tinajs.dev',
+        // contentApiUrlOverride: 'https://bjeyn-content.tinajs.dev'
     },
     build: {
         outputFolder: "admin",
