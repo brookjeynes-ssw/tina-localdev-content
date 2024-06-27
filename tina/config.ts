@@ -31,9 +31,9 @@ const ruleFields = [
 export default defineConfig({
     tinaioConfig: {
         frontendUrlOverride: 'http://localhost:3002',
-        identityApiUrlOverride: 'https://brookj-identity.tinajs.dev',
-        contentApiUrlOverride: 'https://brookj-content.tinajs.dev',
-        assetsApiUrlOverride:  'https://assets-api-local-brookj.tinajs.dev',
+        identityApiUrlOverride: 'https://brookj-dev-identity.tinajs.dev',
+        contentApiUrlOverride: 'https://brookj-dev-content.tinajs.dev',
+        assetsApiUrlOverride:  'https://assets-api-local-brookj-dev.tinajs.dev',
         // frontendUrlOverride: 'https://app.tinajs.dev', // 'https://app.tina.io'
         // identityApiUrlOverride: 'https://identity.tinajs.dev',
         // contentApiUrlOverride: 'https://content.tinajs.dev'
@@ -43,7 +43,6 @@ export default defineConfig({
     clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
     // Get this from tina.io
     token: process.env.TINA_TOKEN,
-
     build: {
         outputFolder: "admin",
         publicFolder: "public",
@@ -53,14 +52,6 @@ export default defineConfig({
             mediaRoot: "",
             publicFolder: "public",
         },
-    },
-    search: {
-        tina: {
-            indexerToken: 'cfbcb060c76cb5e57e8c1444eb5269ffe1b11e33',
-            stopwordLanguages: ['eng'],
-        },
-        indexBatchSize: 100,
-        maxSearchIndexFieldLength: 100,
     },
     // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
     schema: {
