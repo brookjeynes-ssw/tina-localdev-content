@@ -33,7 +33,7 @@ export default defineConfig({
         frontendUrlOverride: 'http://localhost:3002',
         identityApiUrlOverride: 'https://brookj-dev-identity.tinajs.dev',
         contentApiUrlOverride: 'https://brookj-dev-content.tinajs.dev',
-        assetsApiUrlOverride:  'https://assets-api-local-brookj-dev.tinajs.dev',
+        // assetsApiUrlOverride:  'https://assets-api-local-brookj-dev.tinajs.dev',
         // frontendUrlOverride: 'https://app.tinajs.dev', // 'https://app.tina.io'
         // identityApiUrlOverride: 'https://identity.tinajs.dev',
         // contentApiUrlOverride: 'https://content.tinajs.dev'
