@@ -1,6 +1,6 @@
 {
   "slug": "test-top",
-  "title": "Test topic hi",
+  "title": "Test topic",
   "topics": [
     {
       "category": "content/categories/test-cat.json"
